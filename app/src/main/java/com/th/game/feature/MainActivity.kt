@@ -1,7 +1,8 @@
-package com.th.rockpaperscissors
+package com.th.game.feature
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.th.game.R
 
 class MainActivity : AppCompatActivity() {
 

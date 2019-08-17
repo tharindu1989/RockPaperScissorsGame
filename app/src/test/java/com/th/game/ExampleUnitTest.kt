@@ -1,4 +1,4 @@
-package com.th.rockpaperscissors
+package com.th.game
 
 import org.junit.Test
 
