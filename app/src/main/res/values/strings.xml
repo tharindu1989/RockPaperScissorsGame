@@ -4,4 +4,6 @@
     <string name="player_vs_computer">Player Vs Computer</string>
     <string name="computer_vs_computer">Computer Vs Computer</string>
     <string name="exit">Exit</string>
+
+    <string name="choose_your_move">Choose Your Move</string>
 </resources>

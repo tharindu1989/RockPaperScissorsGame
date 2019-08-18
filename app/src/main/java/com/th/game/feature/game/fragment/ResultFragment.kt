@@ -8,4 +8,8 @@ import com.th.game.feature.base.BaseFragment
  */
 class ResultFragment : BaseFragment(){
 
+    companion object {
+        const val TAG = "ResultFragment"
+    }
+
 }
