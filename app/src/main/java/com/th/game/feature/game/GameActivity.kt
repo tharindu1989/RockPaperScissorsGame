@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentTransaction
 import com.th.game.R
 import com.th.game.feature.base.BaseActivity
 import com.th.game.feature.game.fragment.GameFragment
+import com.th.game.feature.mode.GameModeActivity
 
 /**
  * Created By Tharindu on 8/18/2019
@@ -21,6 +22,13 @@ class GameActivity : BaseActivity() {
         addFragment(GameFragment(), GameFragment.TAG, bundle, false)
     }
 
+    fun retry(){
+        openNewActivity(GameModeActivity::class.java)
+    }
+
+    fun exitApp(){
+        finishAffinity()
+    }
 
     /**
      * add Fragment to Container
